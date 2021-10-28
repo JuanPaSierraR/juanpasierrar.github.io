@@ -1,0 +1,40 @@
+body{
+    margin: 10px;
+    text-align: center;
+    padding: 0px;
+    background: blanchedalmond;
+}
+
+.main h1{
+    padding: 0px;
+}
+
+.header{
+    background-color: black;
+    padding: 3px;
+    font-family: serif;
+    color: blanchedalmond;
+    font-size: 1.1em;
+}
+
+#pantalla-dividida{
+    display: flex;
+}
+
+.izquierda{
+    height: 74vh;
+    width: 60%;
+}
+
+.derecha{
+    height: 75vh;
+    width: 40%;
+    padding: 15px;
+    background-color: black
+}
+
+.derecha p{
+    font-family: serif;
+    font-size: 1.1em;
+    color: blanchedalmond
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post</title>
+    <link rel="stylesheet" href="CSS/StyleContacto.CSS">
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        <h2>Contacto</h2>
+        <label for="">Nombres:</label>
+        <input type="text" required name="nombre" placeholder="Ingrese su nombre"> <br>
+
+        <label for="">Apellidos:</label>
+        <input type="text" required name="apellido" placeholder="Ingrese su apellido"> <br>
+
+        <label for="">Edad:</label>
+        <input type="number" required name="edad" placeholder="Ingrese su edad"> <br>
+
+        <label for="">Genero</label>
+        <select name="genero" id="">
+            <option value="1">Mujer</option>
+            <option value="2">Hombre</option>
+        </select> <br>
+
+        <label for="">Mensaje</label>
+        <textarea style="resize: none;" name="mensaje" id="" cols="20" rows="5"></textarea> <br>
+
+        <label for="">Post del jugador</label>
+        <input type="file" name="post"> <br>
+
+        <input type="submit" value="Enviar" id = "boton">
+
+        
+
+    </form>
+    
+</body>
+</html>

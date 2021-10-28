@@ -1,0 +1,56 @@
+
+body{
+    text-align: center;
+    margin: 10px;
+    background-color: rgb(207, 207, 207);
+}
+
+.main h1{
+    text-align: center;
+    padding: 10px;
+    font-family: serif;
+    font-weight: bolder;
+}
+.header{
+    background-color: rgb(192, 186, 186);
+    padding: 2px;
+    
+}
+.menu{
+    
+    background:gainsboro;
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+    text-align: left;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+    font-family: serif;
+    font-size: 1.5em;
+    
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background:aqua;
+    
+}
+.seccion{
+    margin: auto;
+    padding: 5px;
+    background-color: rgb(235, 235, 235);
+    
+    
+}
+
+
+
