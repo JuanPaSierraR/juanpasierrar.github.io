@@ -5,7 +5,7 @@ body{
     background-color: rgb(207, 207, 207);
 }
 
-.main h1{
+.contenedor h1{
     text-align: center;
     padding: 10px;
     font-family: serif;
@@ -48,9 +48,31 @@ body{
     margin: auto;
     padding: 5px;
     background-color: rgb(235, 235, 235);
-    
-    
 }
+
+.contenedor{
+    width: 100%;
+    max-width: 2000px;
+}
+
+@media screen and (max-width: 800px){
+    .menu li {
+        display: inline;
+        text-align: left;
+    }
+
+    @media screen and(max: width 400px){
+        .contenedor{
+            width: 100%;
+
+        }
+    }
+        
+    
+
+}
+    
+
 
 
 
